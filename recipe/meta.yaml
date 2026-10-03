@@ -1,5 +1,5 @@
 {% set name = "starlette-admin" %}
-{% set version = "1.0.1" %}
+{% set version = "1.0.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/starlette_admin-{{ version }}.tar.gz
-  sha256: 0a818db92cbf5a2e24b3f1640028d6468d905228b20b8f6621d0ce97841122f8
+  sha256: 4aa47fba5500c711e59ca44c2d137f871b2e09b386826f0e6c9d662e74e9ba5e
 
 build:
   noarch: python
